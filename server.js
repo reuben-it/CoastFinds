@@ -7,8 +7,7 @@ const url = 'mongodb://localhost:27017';
 const dbName = 'India';
 
 // Array of collection names
-const collectionNames = ['Andaman_Nicobar_Islands', 'Andhra_Pradesh','Goa','Gujarat','Karnataka','Kerala','Lakshadweep','Maharashtra',
-'Odisha','Puducherry','Tamil_Nadu', 'West_Bengal'];
+const collectionNames = ['Andaman_Nicobar_Islands', 'Andhra_Pradesh','Goa','Gujarat','Karnataka','Kerala','Lakshadweep','Maharashtra','Odisha','Puducherry','Tamil_Nadu', 'West_Bengal'];
 
 // Connect to MongoDB
 MongoClient.connect(url, function(err, client) {
